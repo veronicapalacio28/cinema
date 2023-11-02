@@ -1,0 +1,36 @@
+body{
+    background-image: url('../assets/images/background-register.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el cuerpo */
+    background-attachment: fixed; /* Mantiene la imagen fija en su posición */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    overflow: hidden; 
+    
+}
+.register-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.register-data{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.user-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-data input{
+    min-width: 440px;
+    height: 30px;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-size: 17px;
+}
